@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """Push MentalHealthBench to the Hugging Face Hub as a dataset.
 
+Make sure huggingface-cli is on PATH, e.g.:
+    export PATH="/Users/mercuriusdream/Library/Python/3.9/bin:$PATH"
+
 Usage:
     export HF_TOKEN=hf_...
     python push_to_hf.py <your-hf-username-or-org>
 
 Example:
-    python push_to_hf.py johndoe
+    python push_to_hf.py MercuriusDream
 """
 import os
 import sys
